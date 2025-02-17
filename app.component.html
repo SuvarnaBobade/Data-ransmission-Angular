@@ -1,0 +1,17 @@
+<h2 ngNonBindable>hello </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ex quae provident et at soluta? Aut ipsam
+  voluptatibus ab repudiandae impedit fugiat quam esse a! Assumenda maiores incidunt dicta voluptatem!</p>
+  <h3>{{title}}</h3>  
+  <h3>***************************************************************</h3>
+  <h2> property binding -[]</h2>
+  <p> by using property binding we can transefer attribute values from ts to html</p>
+  <input type="text" [value]="username" name="username" placeholder="insert username here">
+  <img [src]="myphoto" alt="">
+  <h3>*********************************************************************</h3>
+  <h2>event binding -()</h2>
+  <p>event binding is used for </p>
+  <button (click)="clickme()">click </button>
+  <h3>*********************************************************************</h3>
+  <h2> two way binding -[()]</h2>
+  <p>two way binding is combination of property binding and event binding </p>
+  <input type="text" name="num1" [(ngModel)]="num1">
